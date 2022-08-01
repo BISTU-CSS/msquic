@@ -156,6 +156,8 @@ typedef enum CXPLAT_THREAD_FLAGS {
 DEFINE_ENUM_FLAG_OPERATORS(CXPLAT_THREAD_FLAGS);
 #endif
 
+#define CX_PLATFORM_LINUX 1
+
 #ifdef _KERNEL_MODE
 #define CX_PLATFORM_TYPE 1
 #include "quic_platform_winkernel.h"
